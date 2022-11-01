@@ -14,4 +14,10 @@ def largest(nums):
 def occurrences(str1, str2):
   return str1.count(str2)
 
-print(occurrences('fleep floop', 'e'))
+def product(*args):
+  num = 1
+  for arg in args:
+    num *= arg
+  return num
+
+print(product(2, 3, 4))
