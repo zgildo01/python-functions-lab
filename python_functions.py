@@ -11,4 +11,7 @@ def largest(nums):
       largest_num = n
   return largest_num
 
-print(largest([1, 2, 3, 4, 0]))
+def occurrences(str1, str2):
+  return str1.count(str2)
+
+print(occurrences('fleep floop', 'e'))
